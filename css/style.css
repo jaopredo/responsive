@@ -1,0 +1,53 @@
+/* RESETANDO CSS */
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #000000;
+    --containers-color: #19222a;
+    --content-container-color: #0e151a;
+}
+
+
+/* GRID */
+.interface {
+    width: 100%;
+    display: grid;
+
+    gap: 20px;
+    padding: 20px;
+    grid-template-rows: 20vh auto 30vh;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas:
+        "header header header"
+        "topics main about"
+        "footer footer footer";
+}
+
+header#header {
+    background: red;
+    grid-area: header;
+}
+
+aside#topic-container {
+    background: blue;
+    grid-area: topics;
+}
+
+main#content {
+    background: yellow;
+    grid-area: main;
+}
+
+aside#about {
+    background: magenta;
+    grid-area: about;
+}
+
+footer#footer {
+    background: green;
+    grid-area: footer;
+}
