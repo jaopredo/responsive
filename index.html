@@ -10,60 +10,68 @@
 </head>
 <body>
     <div class="interface">
-        <header id="header">
+        <header id="header" class="periferic container">
             <h1>WEBDEV</h1>
         </header>
-        <aside id="topic-container">
+        <aside id="topic-container" class="container periferic">
             <h2>TÓPICOS</h2>
             <nav id="topics">
                 <ul class="topic-list list">
-                    <li class="topic-list-item"><a href="#html">HTML</a></li>
-                    <li class="topic-list-item"><a href="#css">CSS</a></li>
-                    <li class="topic-list-item"><a href="#js">JAVASCRIPT</a></li>
-                    <li class="topic-list-item"><a href="#backend">BACKEND</a></li>
+                    <li class="topic-list-item list-item container"><a href="#html">HTML</a></li>
+                    <li class="topic-list-item list-item container"><a href="#css">CSS</a></li>
+                    <li class="topic-list-item list-item container"><a href="#js">JAVASCRIPT</a></li>
+                    <li class="topic-list-item list-item container"><a href="#backend">BACKEND</a></li>
                 </ul>
             </nav>
         </aside>
         <main id="content">
             <h2>WEBTECHS</h2>
-            <div class="content-list-container">
-                <article id="html">
+            <div class="list">
+                <article class="container list-item" id="html">
                     <h3>HTML</h3>
                     <img class="article-logo" src="images/html.png" alt="IMAGEM HTML">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam eligendi ab, reprehenderit animi quae possimus ad asperiores ipsam, iste excepturi, alias neque molestiae pariatur facere dolorem aspernatur eius labore!
+                    </p>
                 </article>
-                <article id="css">
+                <article class="container list-item" id="css">
                     <h3>CSS</h3>
                     <img class="article-logo" src="images/css.png" alt="IMAGEM HTML">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, libero accusamus odit sint voluptatem asperiores facere fugit provident ea, nulla dolor eligendi porro modi eos excepturi assumenda voluptatibus dicta tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe accusantium aliquam perferendis nisi, quidem sit? Dolores, natus modi voluptates aliquid, animi sequi eius asperiores quis error quos temporibus suscipit tempora?
+                    </p>
                 </article>
-                <article class="article-logo" id="js">
+                <article class="container list-item" id="js">
                     <h3>JS</h3>
-                    <img src="images/js.png" alt="IMAGEM HTML">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur.</p>
+                    <img src="images/js.png" class="article-logo" alt="IMAGEM HTML">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati, tenetur dolorem rerum sed iste sunt eum ipsa magnam error quas accusamus et enim dignissimos quo vel minima praesentium omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio perspiciatis eos culpa, reiciendis veniam quis dolorem voluptatem nihil dolore libero quas, voluptatibus corporis amet. Libero, facere! Quam recusandae sed ab.
+                    </p>
                 </article>
-                <article class="article-logo" id="backend">
+                <article class="container list-item" id="backend">
                     <h3>BACKEND</h3>
-                    <img src="images/node.png" alt="IMAGEM HTML">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur.</p>
+                    <img src="images/node.png" class="article-logo" alt="IMAGEM HTML">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime iusto excepturi tempore iure magni corrupti commodi nesciunt nam necessitatibus, laboriosam deserunt officiis quisquam ipsam dolores fugit! Dicta, quasi. Sapiente, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis temporibus sit, dolorum neque est quia quasi explicabo inventore molestias, architecto commodi aperiam rerum asperiores, id dolore in. Voluptates, cupiditate ea.
+                    </p>
                 </article>
             </div>
         </main>
-        <aside id="about">
+        <aside id="about" class="periferic container">
             <h2>SOBRE</h2>
-            <div>
+            <div class="container">
                 <p>Este é um site responsivo apenas com HTML, CSS, e JAVASCRIPT</p>
                 <p>Tecnologias utilizadas: Flexbox, grid, media-queries</p>
             </div>
         </aside>
-        <footer id="footer">
+        <footer id="footer" class="periferic container">
             <section>
-                Design original por Hugo Régis&copy;
+                <header>Design original por Hugo Régis&copy;</header>
                 &#x260E; (88)998100156
                 &#x1F4BB; hugonbr@gmail.com
             </section>
             <section>
-                Refeito por João Pedro
+                <header>Refeito por João Pedro</header>
                 &#x260E; (88)994950020
                 &#x1F4BB; drenagamersbr@gmail.com
             </section>
